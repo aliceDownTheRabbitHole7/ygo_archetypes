@@ -19,6 +19,10 @@ const NavbarData = [
         path: '/dark-magician',
         title: 'Dark Magician'
     },
+    {
+        path: '/toon',
+        title: 'Toon'
+    },
     
 ]
 
