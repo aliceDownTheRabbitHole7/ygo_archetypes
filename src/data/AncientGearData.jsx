@@ -27,6 +27,15 @@ import agTank from '../assets/ancientGear/agTank.jpg'
 import agWorkshop from '../assets/ancientGear/agWorkshop.jpg'
 import geartown from '../assets/ancientGear/geartown.jpg'
 import spellGear from '../assets/ancientGear/spellGear.jpg'
+import agReborn from '../assets/ancientGear/agReborn.jpg'
+import crossDimensional from '../assets/ancientGear/crossDimensional.jpg'
+import agBallista from '../assets/ancientGear/agBallista.jpg'
+import agHowitzer from '../assets/ancientGear/agHowitzer.jpg'
+import agMegaTon from '../assets/ancientGear/agMegaTon.jpg'
+import chaosGear from '../assets/ancientGear/chaosGear.jpg'
+import ultimateAG from '../assets/ancientGear/ultimateAG.jpg'
+import agToken from '../assets/ancientGear/agToken.jpg'
+
 
 
 
@@ -118,6 +127,30 @@ const AncientGearData = [
     },
     {
         image: spellGear
+    },
+    {
+        image: agReborn
+    },
+    {
+        image: crossDimensional
+    },
+    {
+        image: agHowitzer
+    },
+    {
+        image: agMegaTon
+    },
+    {
+        image: chaosGear
+    },
+    {
+        image: ultimateAG
+    },
+    {
+        image: agBallista
+    },
+    {
+        image: agToken
     },
 ]
 
