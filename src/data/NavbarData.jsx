@@ -20,6 +20,10 @@ const NavbarData = [
         title: 'Dark Magician'
     },
     {
+        path: '/gravekeeper',
+        title: 'Gravekeeper'
+    },
+    {
         path: '/toon',
         title: 'Toon'
     },
