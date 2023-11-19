@@ -19,6 +19,22 @@ import reWyvern from '../assets/redEyes/reWyvern.jpg'
 import theBlackStone from '../assets/redEyes/theBlackStone.jpg'
 import cardsOfTheRedStone from '../assets/redEyes/cardsOfTheRedStone.jpg'
 import darkDragonRitual from '../assets/redEyes/darkDragonRitual.jpg'
+import infernoFireBlast from '../assets/redEyes/infernoFireBlast.jpg'
+import reFusion from '../assets/redEyes/reFusion.jpg'
+import reInsight from '../assets/redEyes/reInsight.jpg'
+import reTransmigration from '../assets/redEyes/reTransmigration.jpg'
+import reBurn from '../assets/redEyes/reBurn.jpg'
+import reFangWithChain from '../assets/redEyes/reFangWithChain.jpg'
+import reSpirit from '../assets/redEyes/reSpirit.jpg'
+import returnOfTheRE from '../assets/redEyes/returnOfTheRE.jpg'
+import archfiendBSkull from '../assets/redEyes/archfiendBSkull.jpg'
+import BSkull from '../assets/redEyes/BSkull.jpg'
+import meteorBlack from '../assets/redEyes/meteorBlack.jpg'
+import meteorBlackComet from '../assets/redEyes/meteorBlackComet.jpg'
+import reBlackSword from '../assets/redEyes/reBlackSword.jpg'
+import darkDragoon from '../assets/darkMagician/redEyesDarkDragoon.jpg'
+import reSlash from '../assets/redEyes/reSlash.jpg'
+import reFlareMetal from '../assets/redEyes/reFlareMetal.jpg'
 
 const RedEyesData = [
     {
@@ -84,6 +100,54 @@ const RedEyesData = [
     {
         image: darkDragonRitual
     },
+    {
+        image: infernoFireBlast
+    },
+    {
+        image: reFusion
+    },
+    {
+        image: reInsight
+    },
+    {
+        image: reTransmigration
+    },
+    {
+        image: reBurn
+    },
+    {
+        image: reFangWithChain
+    },
+    {
+        image: reSpirit
+    },
+    {
+        image: returnOfTheRE
+    },
+    {
+        image: archfiendBSkull
+    },
+    {
+        image: BSkull
+    },
+    {
+        image: meteorBlack
+    },
+    {
+        image: meteorBlackComet
+    },
+    {
+        image: reBlackSword
+    },
+    {
+        image: darkDragoon
+    },
+    {
+        image: reSlash
+    },
+    {
+        image: reFlareMetal
+    }
 ]
 
 export default RedEyesData

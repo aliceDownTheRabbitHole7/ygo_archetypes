@@ -12,6 +12,10 @@ const NavbarData = [
         title: 'Amazoness'
     },
     {
+        path: '/black-luster',
+        title: 'Black Luster'
+    },
+    {
         path: '/blue-eyes',
         title: 'Blue-Eyes'
     },

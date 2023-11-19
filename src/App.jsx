@@ -5,6 +5,7 @@ import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import Amazoness from './pages/Amazoness'
 import AncientGear from './pages/AncientGear'
+import BlackLuster from './pages/BlackLuster'
 import BlueEyes from './pages/BlueEyes'
 import DarkMagician from './pages/DarkMagician'
 import Gravekeeper from './pages/Gravekeeper'
@@ -32,6 +33,7 @@ const handleClose = () => {
           <Route exact path='/' element={<Home />} />
           <Route path='/amazoness' element={<Amazoness handleMagnify={handleMagnify} handleClose={handleClose} openModal={openModal} slideNumber={slideNumber} setSlideNumber={setSlideNumber} />} />
           <Route path='/ancient-gear' element={<AncientGear handleMagnify={handleMagnify} handleClose={handleClose} openModal={openModal} slideNumber={slideNumber} setSlideNumber={setSlideNumber} />} />
+          <Route path='/black-luster' element={<BlackLuster handleMagnify={handleMagnify} handleClose={handleClose} openModal={openModal} slideNumber={slideNumber} setSlideNumber={setSlideNumber} />} />
           <Route path='/blue-eyes' element={<BlueEyes handleMagnify={handleMagnify} handleClose={handleClose} openModal={openModal} slideNumber={slideNumber} setSlideNumber={setSlideNumber} />} />
           <Route path='/dark-magician' element={<DarkMagician handleMagnify={handleMagnify} handleClose={handleClose} openModal={openModal} slideNumber={slideNumber} setSlideNumber={setSlideNumber} />} />
           <Route path='/gravekeeper' element={<Gravekeeper handleMagnify={handleMagnify} handleClose={handleClose} openModal={openModal} slideNumber={slideNumber} setSlideNumber={setSlideNumber} />} />
