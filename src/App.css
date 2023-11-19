@@ -9,6 +9,9 @@ html, body {
   min-height: 100vh;
   background-color: rgb(240, 240, 240);
 }
+
+/* Full Screen Image  */
+
 .full-screen {
   position: fixed;
   top: 0;
@@ -45,6 +48,9 @@ html, body {
   right: 2rem;
   top: 2rem;
 }
+
+/* Card List  */
+
 .archetype-container {
   display: flex;
   flex-wrap: wrap;
@@ -53,9 +59,11 @@ html, body {
 .page-header {
   text-align: center;
   font-size: 36px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 2rem 0;
   font-family: 'Righteous', serif;
+  background-image: linear-gradient(90deg, rgba(191, 0, 85, 1), rgba(227, 225, 0, 1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .map-container {
   display: flex;
@@ -63,13 +71,16 @@ html, body {
   justify-content: center;
 }
 .card-img {
-  max-height: 175px;
+  max-height: 200px;
   margin: 0.5rem;
   box-shadow: 3px 3px 5px slategrey;
+  transform-origin: center;
+  transform: perspective(800px) rotateY(10deg);
+  transition: 0.5s;
 }
 .card-img:hover {
-  transform: scale(1.02);
-  transition: 350ms;
+  transform: perspective(800px) rotateY(0deg);
+  opacity: 1;
   cursor: pointer;
 }
 
@@ -80,5 +91,8 @@ html, body {
   .full-image {
     width: 95vw;
     height: auto;
+  }
+  .card-img {
+    max-height: 175px;
   }
 }

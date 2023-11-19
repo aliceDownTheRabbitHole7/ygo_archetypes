@@ -13,7 +13,7 @@ const NavbarData = [
     },
     {
         path: '/blue-eyes',
-        title: 'Blue Eyes'
+        title: 'Blue-Eyes'
     },
     {
         path: '/dark-magician',
@@ -22,6 +22,10 @@ const NavbarData = [
     {
         path: '/gravekeeper',
         title: 'Gravekeeper'
+    },
+    {
+        path: '/red-eyes',
+        title: 'Red-Eyes'
     },
     {
         path: '/toon',

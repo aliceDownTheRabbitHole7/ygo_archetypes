@@ -4,6 +4,7 @@ import gkAssailant from '../assets/gravekeeper/gkAssailant.jpg'
 import gkCannonholder from '../assets/gravekeeper/gkCannonholder.jpg'
 import gkChief from '../assets/gravekeeper/gkChief.jpg'
 import gkCommandant from '../assets/gravekeeper/gkCommandant.jpg'
+import gkCurse from '../assets/gravekeeper/gkCurse.jpg'
 import gkDescendant from '../assets/gravekeeper/gkDescendant.jpg'
 import gkGuard from '../assets/gravekeeper/gkGuard.jpg'
 import gkHeadman from '../assets/gravekeeper/gkHeadman.jpg'
@@ -26,6 +27,11 @@ import gkStele from '../assets/gravekeeper/gkStele.jpg'
 import hiddenTemples from '../assets/gravekeeper/hiddenTemples.jpg'
 import Necrovalley from '../assets/gravekeeper/Necrovalley.jpg'
 import necrovalleyThrone from '../assets/gravekeeper/necrovalleyThrone.jpg'
+import gkTrap from '../assets/gravekeeper/gkTrap.jpg'
+import imperialTombs from '../assets/gravekeeper/imperialTombs.jpg'
+import necrovalleyTemple from '../assets/gravekeeper/necrovalleyTemple.jpg'
+import riteOfSpirit from '../assets/gravekeeper/riteOfSpirit.jpg'
+import gkSupernaturalist from '../assets/gravekeeper/gkSupernaturalist.jpg'
 
 const GravekeeperData = [
     {
@@ -45,6 +51,9 @@ const GravekeeperData = [
     },
     {
         image: gkCommandant
+    },
+    {
+        image: gkCurse
     },
     {
         image: gkDescendant
@@ -112,6 +121,21 @@ const GravekeeperData = [
     {
         image: necrovalleyThrone
     },
+    {
+        image: gkTrap
+    },
+    {
+        image: imperialTombs
+    },
+    {
+        image: necrovalleyTemple
+    },
+    {
+        image: riteOfSpirit
+    },
+    {
+        image: gkSupernaturalist
+    }
 ]
 
 export default GravekeeperData

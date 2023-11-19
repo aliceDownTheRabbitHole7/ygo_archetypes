@@ -8,6 +8,7 @@ import AncientGear from './pages/AncientGear'
 import BlueEyes from './pages/BlueEyes'
 import DarkMagician from './pages/DarkMagician'
 import Gravekeeper from './pages/Gravekeeper'
+import RedEyes from './pages/RedEyes'
 import Toon from './pages/Toon'
 
 
@@ -34,6 +35,7 @@ const handleClose = () => {
           <Route path='/blue-eyes' element={<BlueEyes handleMagnify={handleMagnify} handleClose={handleClose} openModal={openModal} slideNumber={slideNumber} setSlideNumber={setSlideNumber} />} />
           <Route path='/dark-magician' element={<DarkMagician handleMagnify={handleMagnify} handleClose={handleClose} openModal={openModal} slideNumber={slideNumber} setSlideNumber={setSlideNumber} />} />
           <Route path='/gravekeeper' element={<Gravekeeper handleMagnify={handleMagnify} handleClose={handleClose} openModal={openModal} slideNumber={slideNumber} setSlideNumber={setSlideNumber} />} />
+          <Route path='/red-eyes' element={<RedEyes handleMagnify={handleMagnify} handleClose={handleClose} openModal={openModal} slideNumber={slideNumber} setSlideNumber={setSlideNumber} />} />
           <Route path='/toon' element={<Toon handleMagnify={handleMagnify} handleClose={handleClose} openModal={openModal} slideNumber={slideNumber} setSlideNumber={setSlideNumber} />} />
         </Routes>
       </BrowserRouter>
