@@ -9,18 +9,33 @@ import archGiant from '../assets/archfiend/archGiant.jpg'
 import archGilfer from '../assets/archfiend/archGilfer.jpg'
 import archHeiress from '../assets/archfiend/archHeiress.jpg'
 import archInterceptor from '../assets/archfiend/archInterceptor.jpg'
+import archMarmot from '../assets/archfiend/archMarmot.jpg'
 import archSoldier from '../assets/archfiend/archSoldier.jpg'
+import awakeningNefa from '../assets/archfiend/awakeningNefa.jpg'
 import boneArchfiend from '../assets/archfiend/boneArchfiend.jpg'
 import cyberArch from '../assets/archfiend/cyberArch.jpg'
 import darkbishopArch from '../assets/archfiend/darkbishopArch.jpg'
 import desrookArch from '../assets/archfiend/desrookArch.jpg'
 import imprisonedQueenArch from '../assets/archfiend/imprisonedQueenArch.jpg'
 import infernalqueenArch from '../assets/archfiend/infernalqueenArch.jpg'
+import infernityArch from '../assets/archfiend/infernityArch.jpg'
 import labrynthArch from '../assets/archfiend/labrynthArch.jpg'
 import lancerArch from '../assets/archfiend/lancerArch.jpg'
 import madArch from '../assets/archfiend/madArch.jpg'
+import mistArch from '../assets/archfiend/mistArch.jpg'
+import nefaArch from '../assets/archfiend/nefaArch.jpg'
+import redDragonAssault from '../assets/archfiend/redDragonAssault.jpg'
+import redGardna from '../assets/archfiend/redGardna.jpg'
+import shadowknightArch from '../assets/archfiend/shadowknightArch.jpg'
+import skilledRedMag from '../assets/archfiend/skilledRedMag.jpg'
+import skullArch from '../assets/archfiend/skullArch.jpg'
+import soulResonator from '../assets/archfiend/soulResonator.jpg'
+import tranceArch from '../assets/archfiend/tranceArch.jpg'
+import vilepawnArch from '../assets/archfiend/vilepawnArch.jpg'
+import visionRes from '../assets/archfiend/visionRes.jpg'
 import summonedSkull from '../assets/archfiend/summonedSkull.jpg'
 import redEyesArch from '../assets/redEyes/reArchfiendLightning.jpg'
+
 
 const ArchfiendData = [
     {
@@ -57,7 +72,13 @@ const ArchfiendData = [
         image: archInterceptor
     },
     {
+        image: archMarmot
+    },
+    {
         image: archSoldier
+    },
+    {
+        image: awakeningNefa
     },
     {
         image: boneArchfiend
@@ -78,6 +99,9 @@ const ArchfiendData = [
         image: infernalqueenArch
     },
     {
+        image: infernityArch
+    },
+    {
         image: labrynthArch
     },
     {
@@ -87,11 +111,45 @@ const ArchfiendData = [
         image: madArch
     },
     {
+        image: mistArch
+    },
+    {
+        image: nefaArch
+    },
+    {
+        image: redDragonAssault
+    },
+    {
+        image: redGardna
+    },
+    {
         image: redEyesArch
+    },
+    {
+        image: shadowknightArch
+    },
+    {
+        image: skilledRedMag
+    },
+    {
+        image: skullArch
+    },
+    {
+        image: soulResonator
     },
     {
         image: summonedSkull
     },
+    {
+        image: tranceArch
+    },
+    {
+        image: vilepawnArch
+    },
+    {
+        image: visionRes
+    },
+
 ]
 
 export default ArchfiendData
