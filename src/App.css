@@ -7,7 +7,7 @@
 }
 html, body {
   min-height: 100vh;
-  background-color: rgb(240, 240, 240);
+  background-image: linear-gradient(120deg, rgb(120, 120, 120), rgb(100, 100, 100));
 }
 
 /* Full Screen Image  */
@@ -18,7 +18,7 @@ html, body {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: slategrey;
+  background-color: darkslategray;
   z-index: 50;
   display: flex;
   justify-content: center;
@@ -27,6 +27,7 @@ html, body {
 }
 .full-image {
   height: 95vh;
+  border-radius: 8px;
 }
 
 .exit-btn, .left-btn, .right-btn {
@@ -61,9 +62,10 @@ html, body {
   font-size: 36px;
   margin: 2rem 0;
   font-family: 'Righteous', serif;
-  background-image: linear-gradient(90deg, rgba(191, 0, 85, 1), rgba(227, 225, 0, 1));
+  background-image: linear-gradient(90deg, rgba(171, 0, 65, 1), rgba(155, 155, 0, 1));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-shadow: black;
 }
 .map-container {
   display: flex;
@@ -73,10 +75,11 @@ html, body {
 .card-img {
   max-height: 200px;
   margin: 0.5rem;
-  box-shadow: 3px 3px 5px slategrey;
+  box-shadow: 3px 3px 5px darkslategrey;
   transform-origin: center;
   transform: perspective(800px) rotateY(10deg);
   transition: 0.5s;
+  border-radius: 4px;
 }
 .card-img:hover {
   transform: perspective(800px) rotateY(0deg);
@@ -94,5 +97,18 @@ html, body {
   }
   .card-img {
     max-height: 175px;
+  }
+  .exit-btn, .left-btn, .right-btn {
+    font-size: 2rem;
+  }
+  .left-btn {
+    left: 1rem;
+  }
+  .right-btn {
+    right: 1rem;
+  }
+  .exit-btn {
+    right: 1rem;
+    top: 1rem;
   }
 }

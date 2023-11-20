@@ -12,6 +12,10 @@ const NavbarData = [
         title: 'Amazoness'
     },
     {
+        path: '/archfiend',
+        title: 'Archfiend'
+    },
+    {
         path: '/black-luster',
         title: 'Black Luster'
     },
@@ -35,7 +39,6 @@ const NavbarData = [
         path: '/toon',
         title: 'Toon'
     },
-    
 ]
 
 export default NavbarData
