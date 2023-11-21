@@ -39,6 +39,7 @@ const NavbarData = [
         path: '/toon',
         title: 'Toon'
     },
+    
 ]
 
 export default NavbarData

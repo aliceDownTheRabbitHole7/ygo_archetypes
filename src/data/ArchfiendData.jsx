@@ -30,11 +30,25 @@ import shadowknightArch from '../assets/archfiend/shadowknightArch.jpg'
 import skilledRedMag from '../assets/archfiend/skilledRedMag.jpg'
 import skullArch from '../assets/archfiend/skullArch.jpg'
 import soulResonator from '../assets/archfiend/soulResonator.jpg'
+import terrorkingArch from '../assets/archfiend/terrorkingArch.jpg'
 import tranceArch from '../assets/archfiend/tranceArch.jpg'
 import vilepawnArch from '../assets/archfiend/vilepawnArch.jpg'
 import visionRes from '../assets/archfiend/visionRes.jpg'
 import summonedSkull from '../assets/archfiend/summonedSkull.jpg'
 import redEyesArch from '../assets/redEyes/reArchfiendLightning.jpg'
+import archEccentric from '../assets/archfiend/archEccentric.jpg'
+import absolutePowerforce from '../assets/archfiend/absolutePowerforce.jpg'
+import aDealDarkRuler from '../assets/archfiend/aDealDarkRuler.jpg'
+import archOath from '../assets/archfiend/archOath.jpg'
+import archPalabrynth from '../assets/archfiend/archPalabrynth.jpg'
+import archStaff from '../assets/archfiend/archStaff.jpg'
+import axeDespair from '../assets/archfiend/axeDespair.jpg'
+import checkmate from '../assets/archfiend/checkmate.jpg'
+import crimsonGaia from '../assets/archfiend/crimsonGaia.jpg'
+import fallingDown from '../assets/archfiend/fallingDown.jpg'
+import pandemonium from '../assets/archfiend/pandemonium.jpg'
+import redDragonVase from '../assets/archfiend/redDragonVase.jpg'
+import scarletSecurity from '../assets/archfiend/scarletSecurity.jpg'
 
 
 const ArchfiendData = [
@@ -141,6 +155,9 @@ const ArchfiendData = [
         image: summonedSkull
     },
     {
+        image: terrorkingArch
+    },
+    {
         image: tranceArch
     },
     {
@@ -149,7 +166,45 @@ const ArchfiendData = [
     {
         image: visionRes
     },
-
+    {
+        image: archEccentric
+    },
+    {
+        image: absolutePowerforce
+    },
+    {
+        image: aDealDarkRuler
+    },
+    {
+        image: archOath
+    },
+    {
+        image: archPalabrynth
+    },
+    {
+        image: archStaff
+    },
+    {
+        image: axeDespair
+    },
+    {
+        image: checkmate
+    },
+    {
+        image: crimsonGaia
+    },
+    {
+        image: fallingDown
+    },
+    {
+        image: pandemonium
+    },
+    {
+        image: redDragonVase
+    },
+    {
+        image: scarletSecurity
+    },
 ]
 
 export default ArchfiendData
