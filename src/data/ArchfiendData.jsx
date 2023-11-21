@@ -49,7 +49,21 @@ import fallingDown from '../assets/archfiend/fallingDown.jpg'
 import pandemonium from '../assets/archfiend/pandemonium.jpg'
 import redDragonVase from '../assets/archfiend/redDragonVase.jpg'
 import scarletSecurity from '../assets/archfiend/scarletSecurity.jpg'
-
+import archGhast from '../assets/archfiend/archGhast.webp'
+import archRoar from '../assets/archfiend/archRoar.jpg'
+import battleScarred from '../assets/archfiend/battleScarred.jpg'
+import callArch from '../assets/archfiend/callArch.jpg'
+import crimsonFire from '../assets/archfiend/crimsonFire.jpg'
+import fiendishGolem from '../assets/archfiend/fiendishGolem.jpg'
+import kingScarlet from '../assets/archfiend/kingScarlet.jpg'
+import nightmareArch from '../assets/archfiend/nightmareArch.jpg'
+import redCocoon from '../assets/archfiend/redCocoon.webp'
+import redScreen from '../assets/archfiend/redScreen.jpg'
+import redSupremacy from '../assets/archfiend/redSupremacy.jpg'
+import redZone from '../assets/archfiend/redZone.jpg'
+import simulArch from '../assets/archfiend/simulArch.jpg'
+import archSkullDragon from '../assets/redEyes/archfiendBSkull.jpg'
+import archManifest from '../assets/archfiend/archManifest.jpg'
 
 const ArchfiendData = [
     {
@@ -204,6 +218,51 @@ const ArchfiendData = [
     },
     {
         image: scarletSecurity
+    },
+    {
+        image: archGhast
+    },
+    {
+        image: archRoar
+    },
+    {
+        image: battleScarred
+    },
+    {
+        image: callArch
+    },
+    {
+        image: crimsonFire
+    },
+    {
+        image: fiendishGolem
+    },
+    {
+        image: kingScarlet
+    },
+    {
+        image: nightmareArch
+    },
+    {
+        image: redCocoon
+    },
+    {
+        image: redScreen
+    },
+    {
+        image: redSupremacy
+    },
+    {
+        image: redZone
+    },
+    {
+        image: simulArch
+    },
+    {
+        image: archSkullDragon
+    },
+    {
+        image: archManifest
     },
 ]
 
