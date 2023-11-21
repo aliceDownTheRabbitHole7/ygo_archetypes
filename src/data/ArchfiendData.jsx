@@ -64,6 +64,24 @@ import redZone from '../assets/archfiend/redZone.jpg'
 import simulArch from '../assets/archfiend/simulArch.jpg'
 import archSkullDragon from '../assets/redEyes/archfiendBSkull.jpg'
 import archManifest from '../assets/archfiend/archManifest.jpg'
+import archCall from '../assets/archfiend/archCall.jpg'
+import archZombie from '../assets/archfiend/archZombie.jpg'
+import chaosArch from '../assets/archfiend/chaosArch.jpg'
+import chaosKing from '../assets/archfiend/chaosKing.jpg'
+import hotRed from '../assets/archfiend/hotRed.jpg'
+import hotRedAbyss from '../assets/archfiend/hotRedAbyss.jpg'
+import hotRedBane from '../assets/archfiend/hotRedBane.jpg'
+import hotRedKing from '../assets/archfiend/hotRedKing.jpg'
+import infernityDoom from '../assets/archfiend/infernityDoom.jpg'
+import majesticRed from '../assets/archfiend/majesticRed.jpg'
+import overmindArch from '../assets/archfiend/overmindArch.jpg'
+import redDragonArch from '../assets/archfiend/redDragonArch.jpg'
+import redNova from '../assets/archfiend/redNova.jpg'
+import scarlightRed from '../assets/archfiend/scarlightRed.jpg'
+import scarredDragon from '../assets/archfiend/scarredDragon.jpg'
+import scrapArch from '../assets/archfiend/scrapArch.jpg'
+import thoughtRuler from '../assets/archfiend/thoughtRuler.jpg'
+import tyrantRed from '../assets/archfiend/tyrantRed.jpg'
 
 const ArchfiendData = [
     {
@@ -263,6 +281,60 @@ const ArchfiendData = [
     },
     {
         image: archManifest
+    },
+    {
+        image: archCall
+    },
+    {
+        image: archZombie
+    },
+    {
+        image: chaosArch
+    },
+    {
+        image: chaosKing
+    },
+    {
+        image: hotRed
+    },
+    {
+        image: hotRedAbyss
+    },
+    {
+        image: hotRedBane
+    },
+    {
+        image: hotRedKing
+    },
+    {
+        image: infernityDoom
+    },
+    {
+        image: majesticRed
+    },
+    {
+        image: overmindArch
+    },
+    {
+        image: redDragonArch
+    },
+    {
+        image: redNova
+    },
+    {
+        image: scarlightRed
+    },
+    {
+        image: scarredDragon
+    },
+    {
+        image: scrapArch
+    },
+    {
+        image: thoughtRuler
+    },
+    {
+        image: tyrantRed
     },
 ]
 
